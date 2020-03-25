@@ -1,0 +1,29 @@
+Napisany program jest  jest czêœci¹ systemu wyporzyczalni.
+Podczas w³¹czania programu tworzonych jest kilka obiektów klas, z których u¿ytkownik
+moze wypo¿yczac dostêpne dzie³a, tworzona jest równiesz tablica u¿ytkowników która moze pomieœciæ do 4 osób.
+Po uruchomieniu gó³ownej pêtli u¿ytkownikowi zadawane jest pytanie co chce zrobiæi wyœwietlone
+s¹ mu 3 opcje: rejestracja, logowanie siê oraz wy³¹czenie programu.
+
+Wybór pierwszej opcji spowoduje wype³nienie pól wczesniej utwozonego obiektu klasy U¿ytkownik.
+Przy próbie zarejestrowania pi¹tej (i wiêcej) osoby program wyœwietli napis 
+"Nie mozna zarejestrwac wiecej uzytkownikow"
+oraz wróci do zapytania o to co uzytkownik chce zrobiæ.
+
+Wybór drugiej opcji pozwala na zalogowanie siê do istniej¹cego ju¿ konta.
+Nastêpnie mamy do wybrania 5 opcji: wypozyczenie czegoœ z biblioteki (które wyswietla zawartoœæ biblioteki),
+oddanie czegoœc co ju¿ wypo¿yczyliœmy (w momencie gdy nic nie wypo¿yczaliœmy wyswietla odpowiedni komunikat),
+wyœwietliæ dane osobowe, sprawdziæ stan konta (wraz z mo¿liw¹ kar¹ za zbyt d³ugie przetrzymywanie dzie³a),
+wylogowaæ siê
+
+Opcja trzecia wy³¹cza program.
+
+U¿ytkownik mo¿e przetrzymywaæ wypo¿yczone dzie³o przez dwa miesi¹ce, w przypadku przekroczenia tego 
+czasu naliczane mu jest kara w wysokoœci 20 z³.
+U¿ytkownik mo¿e na swoim koncie wypo¿yczone maxymalnie 2 dzie³a. Przy próbie wypo¿yczenia kolejnego
+wyœwietlana jest porœba o wczeœniejsze oddanie jednego z nich.
+
+Uwagi:
+W przypadku zarejestrowania siê mniej ni¿ 4 u¿ytkowników:
+*podczas nieudanej próby logowania siê (wpisany b³êdny login) program zakoñczy siê null pointer exception
+poniewa¿ login osoby próbuj¹cej siê zalogowaæ bêdzie porównywany z loginem póŸniejszego w kolejnoœci u¿ytkownika
+a gdy ten nie jest zarejestrowany porównuje go z wartoœci¹, która nie istnieje.
