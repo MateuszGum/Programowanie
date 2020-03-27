@@ -27,3 +27,7 @@ W przypadku zarejestrowania się mniej niż 4 użytkowników:
 *podczas nieudanej próby logowania się (wpisany błędny login) program zakończy się null pointer exception
 ponieważ login osoby próbującej się zalogować będzie porównywany z loginem późniejszego w kolejności użytkownika
 a gdy ten nie jest zarejestrowany porównuje go z wartością która nie istnieje.
+
+W programie zostały wykorzystane klasy takie jak: Uzytkownik z metodami do wypożyczania książek, oddawania ich, wyswietlania informacji o uzytkowniku, wyswietlania stanu kąta w wypożyczalni oraz konstruktor, Zbiory z klasami dziedziczącymi po tej klasie:
+Ksiazka, Filmy, PlytyMuzyczne, Audiobooki, Ebooki
+oraz klasa Main zawierająca główną pętle programu związaną z wyborami jakich dokonuje osoba kożystająca z programu
