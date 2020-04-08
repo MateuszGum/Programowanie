@@ -1,0 +1,6 @@
+Interfejs Iterable:
+Jest to wzorzec projektowy, który pozwala nam przechodzić po kolejnych elementach kolekcji bez potrzeby
+znajomości tego co w tej kolekcji jest. Iterator sam dostosowuje się do kolekcji na której pracuje
+dzięki czemu nie musimy podawać mu typu zmiennych/obiektów na których pracuje. Iterator poza tym,
+że pozwala nam się poruszać po kolekcji do przodu, daje  nam również możliwość poruszania się po niej
+do tyłu.
