@@ -2,3 +2,13 @@ Interfejs Closable:
 Jest to wzorzec projektowy, który jest źródłem lub miejscem docelowym danych które można zamknąć. 
 Aby zamknąć, np. otwarte pliki, wywoływana jest metoda close w celu zwolnienia zasobów systemowych 
 przechowywanych przez obiekt/skojarzonych z nim.
+
+Przykład działającego kodu:
+public static void close(Closeable closeable) {
+    if (null == closeable) return;
+    try {
+        closeable.close();
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
