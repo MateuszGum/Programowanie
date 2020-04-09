@@ -1,0 +1,27 @@
+Napisany program służy do sortowania liczb przy użyciu dwóch różnych metod. 
+Podczas włączania programu tworzona jest tablica 200 liczb losowych z przedziału od 0 do 499.
+Po uruchomieniu głównej pętli programu użytkownik dostaje zapytanie co chce zrobić z nieuporządkowaną tablicą liczb.
+Do wyboru ma 3 opcje, sortowanie kubełkowe, sortowanie bąbelkowe oraz wyjście z programu.
+Niezależnie od wybranej opcji, w związku z tym, że pseudolosowe liczby są generowane przed główną pętlą programu
+wykonanie każdej z opcji skończy się zamknięciem programu. Nie miało by sensu sortować jeszcze raz już posortowaną tablicę.
+
+Wybór pierwszej opcji posortuje liczby metodą kubełkową. Oznacza to, że z tablicy wszystkich liczb zostanie znaleziona największa.
+Jej wartość będzie ilością miejsc w kolejnej tablicy, która posłuży już do samego segregowania.
+Samo segregowanie polega na tym że odpowiednie liczby (te wygenerowane na początku programu) zwiększą wartość odpowiedniego pola w 
+kubełku o 1 (wartość początkowa każdego kubełka to 0). Samo poprawne ułożenie liczb w tablicy już posortowanej 
+(tej z ilością elementów równą wejściowej liczbie elementów) odbywa się podczas wyświetlania.
+Ten wybór wyświetli również liczbę porównań dokonanych przez program w celu sortowania, liczba ta będzie równa liczbie liczb wejściowych
+bo dokładnie tyle liczb program musi przypisać w odpowiednie miejsca w kubełkach.
+
+Wybór drugiej opcji posortuje liczby bąbelkowo. Każda z liczb w tablicy będzie sprawdzana z kolejną, która z nich jest większa
+i w przypadku gdy liczba z indeksem mniejszym jest większa od liczby z większym indeksem tablicy zostają one zamieniane ze sobą miejscami
+fukncją swap. Jest to najprostrzy model sortowania bąbelkowego, taki w którym liczba operacji nie zawsze jest optymalna.
+Po wyświetleniu posortowanych liczb program wyświetli liczbę operacji które przeprowadził. Liczba ta jest równa liczbie liczb minus jeden.
+
+Trzecia opcja wyłączy program.
+
+W programie zostały użyte 3 klasy, Main z pętlą główną, Bubble, Bucket z odpowiednimi metodami do sortowania.
+Klasy Bubble i Bucket dziedziczą po interfejsie Sortable.
+
+W klasie Bucket i Bubble są metoda do sortowania, do wyświetlania oraz do zliczania liczby przeprowadzonych proównań.
+W klasie Bubble jest również metoda swap();
