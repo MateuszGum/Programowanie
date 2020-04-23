@@ -6,7 +6,9 @@ public class Ksiazki  {
 	private Zbiory zbiory;
 	private int ilosc_stron;
 
-	void Ksiazki() {
+
+
+	public  Ksiazki() {
 		this.zbiory = new Zbiory();
 		zbiory.setAutor("autor");
 		zbiory.setCena(20);
