@@ -1,0 +1,14 @@
+zad 2:
+Program jest krótki, na początku pyta użytkownika na jaki system chce zmienic znaki z klawiatury a następnie prosi o 
+znaki do zamiany następnie wyświetla je w wybranym przez użytkownika systemie liczbowym. W między czasie wykonywana jest instrukcja 
+try/catch, która ma na celu wyłapać wyjątek NumberFormatException.
+
+zad 3:
+Na początku program tworzy tablice 200 intów i przypisuje każdemu miejscu wartość 0. Następnie wyświetla zapytanie do użytkownika
+o numer obiektu z tablicy, który chce wyświetlić. W instrukcji try próbuje zrealizować wyświetlanie wybranego elementu 
+oraz wyłapanie wyjątku IndexOutOfBoundsException.
+
+zad 4:
+W programie z Instrukcji 2 w klasie Ksiazki dziedziczącej wcześniej po Zbiory to dziedziczenie zostaje zastąpione kompozycją.
+Do tego celu stwarzany jest konstruktor który tworzy element klasy Zbiory i przypisuje odpowiednim polom tej klasy wartości.
+Zmiana jest również w metodzie wyświetl. Wyświetla teraz pola klasy Zbiory tworzonej w konstruktorze zamiast pól z klasy Ksiazki.
