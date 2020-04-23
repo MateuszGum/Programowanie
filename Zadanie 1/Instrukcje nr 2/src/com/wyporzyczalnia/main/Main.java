@@ -14,12 +14,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Ksiazki pierwszak = new Ksiazki();
-		pierwszak.setAutor("Mickiewicz");
-		pierwszak.setWydawnictwo("Helion");
-		pierwszak.setIlosc_stron(200);
-		pierwszak.setNazwa("Ballady i romanse");
-		pierwszak.setNumer(101);
-		pierwszak.setCena(20);
+		
 
 		PlytyMuzyczne pierwszap = new PlytyMuzyczne();
 		pierwszap.setAutor("Metallica");
