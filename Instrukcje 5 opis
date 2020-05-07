@@ -1,0 +1,6 @@
+Program składa się z trzech klas Main, w której zawarta jest pętla główna
+programy, w której napisane zostały krótkie programy tj. sprawdzanie czy temperatura jest mniejsza od 100
+zwracanie prawdy gdy jest ciąg 123 w tablicy, zwracanie połowy ciągu znaków i zamiana kolejnosci 
+elementów w tablicy.
+W klasie testyTest są 4 testy po jednym dla każdego z programów. Testy działają bez zarzutów zarówno dla
+pomyslnie przeprowadzonego testu jak i znalezionego tam błędu.
