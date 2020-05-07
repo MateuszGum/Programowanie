@@ -13,7 +13,8 @@ public class Main {
 		
 		System.out.println("podaj który element tablicy chcesz wyœwietliæ");
 		
-			Scanner scan = new Scanner(System.in);
+		try {
+				Scanner scan = new Scanner(System.in);
 		int nowy = Integer.parseInt(scan.next());
 		
 		
@@ -23,6 +24,10 @@ public class Main {
 		}
 		catch(IndexOutOfBoundsException e){
 			System.out.println("tablica nie ma takiego elementu");
+		}
+		}
+		catch(NumberFormatException d) {
+			System.out.println("b³¹d formatu");
 		}
 	}
 }
