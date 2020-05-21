@@ -1,0 +1,8 @@
+W programie zostały zmodyfikowane następujące klasy:
+Greeting.java w której dodane został String imie oraz String wiek, dorobione zostały do nich getery oraz te 2 stringi 
+zostąły wrzucone do konstruktora żeby wyświetlał id imie i wiek.
+W klasie GreetingController został dodany nowy endpoint nowy a stary endpoint greeting został zamieniony na bye. 
+Zostało dodane również dodany nowy @RequestParam aby było wyświetlane więcej parametrów (w tym wypadku dodatkowo wiek)
+Została również dodana klasa kczym której metoda sprawdza czy imie wpisane w przeglądarke jest żeńskie czy męskie i zwraca 
+stringa zawierającego odpowidnią litere
+Wpisany tekst zawiera się we wzorcu
